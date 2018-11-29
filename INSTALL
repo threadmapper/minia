@@ -17,7 +17,7 @@ cd build
 cmake ..
 
 # Run the newly created makefile:
-make -j8
+make -j2
 # Go back at the installation root directory
 
 cd ..
