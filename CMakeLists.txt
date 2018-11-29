@@ -52,7 +52,10 @@ SET (CMAKE_MODULE_PATH ${GATB_CORE_HOME}/cmake)
 # SUPPORTED KMER SIZES
 ################################################################################
 
-# One can uncomment this line and set the wanted values
+# One can uncomment this line and set the wanted values :jitu added
+set (KSIZE_LIST "32  64  96 128 160 192 224 256 288 320 352 384 416 448 480  512")
+ 
+
 #set (KSIZE_LIST "32 64 96 100 128 160 192 200 224 256 288 300 320 350 352 384 400 416 448 450 480 500 512 544 576 608 640 672 704 736 768")
 #set (KSIZE_LIST "256 288 320 350 352 384 416 448 450 480  512 544 576 608")
 #set (KSIZE_LIST "32   64   96  128  160  192  224  256")
